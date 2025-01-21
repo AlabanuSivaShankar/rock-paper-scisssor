@@ -1,0 +1,101 @@
+/* General Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+/* Phone Structure */
+.phone {
+    width: 320px;
+    height: 600px;
+    background-color: #000;
+    border-radius: 30px;
+    border: 10px solid #222;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Phone Header (Camera & Speaker) */
+.phone-header {
+    height: 60px;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.camera {
+    width: 12px;
+    height: 12px;
+    background: #444;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+}
+
+.speaker {
+    width: 80px;
+    height: 8px;
+    background: #444;
+    border-radius: 5px;
+}
+
+/* Phone Screen */
+.phone-screen {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* App Content */
+.app h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.app p {
+    color: #666;
+}
+
+.btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #70a1e6;
+}
+
+/* Phone Footer (Navigation Button) */
+.phone-footer {
+    height: 60px;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button {
+    width: 50px;
+    height: 50px;
+    background: #444;
+    border-radius: 50%;
+}
